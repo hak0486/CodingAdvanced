@@ -45,6 +45,10 @@ body, html{
 	width: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .header {
 	background-color:lightgray;
 	display: flex;
@@ -110,10 +114,15 @@ body, html{
 	overflow: hidden;
 }
 
+.slider_wrapper {
+  width: 1080px;
+  margin: 0 auto;
+}
+
 .slider {
-    margin: 0;
+	width: 640px;
 	padding: 0;
-    width: 100%;
+	display: block;
 }
 .slider img {
     height: 600px;
@@ -124,11 +133,12 @@ body, html{
 
 .content_top{
 	font-size: 32px;
-	margin-left: 130px;
+	text-align: center;
 }
 
 .accordion_menu{
-	margin:0 130px;
+	width: 1080px;
+	margin: 0 auto;
 }
 
 .accordion_menu_head{
@@ -138,7 +148,7 @@ body, html{
 }
 
 .menu_open{
-	margin:0 130px;
+	margin: 0;
 	overflow: hidden;
 	max-height: 0;
 	transition: max-height 0.8s ease;
@@ -158,14 +168,19 @@ body, html{
     transform: translate(0, 0) !important;
   }
 
+.block_one{
+	width: 800px;
+	margin: 40px auto;
+}
+
+
 .block_one_head{
 	font-size: 20px;
 	font-weight: bold;
-	margin: 20px 130px;
+	margin: 0 auto;
 }
 
 .signature_food{
-	margin: 0 130px;
 	display: flex;
 }
 
@@ -174,18 +189,22 @@ body, html{
 }
 
 .signature_food img{
-	width: 500px;
+	width: 450px;
 	height: auto;
+	margin-top: 20px;
+}
+
+.block_two{
+	width: 800px;
+	margin: 40px auto;
 }
 
 .block_two_head{
 	font-size: 20px;
 	font-weight: bold;
-	margin: 20px 130px;
 }
 
 .our_coffee{
-	margin: 0 130px;
 	display: flex;
 }
 
@@ -194,18 +213,22 @@ body, html{
 }
 
 .our_coffee img{
-	width: 500px;
+	width: 450px;
 	height: auto;
+	margin-top: 20px;
+}
+
+.block_three{
+	width: 800px;
+	margin: 40px auto;
 }
 
 .block_three_head{
 	font-size: 20px;
 	font-weight: bold;
-	margin: 20px 130px;
 }
 
 .our_food{
-	margin: 0 130px;
 	display: flex;
 }
 
@@ -214,8 +237,9 @@ body, html{
 }
 
 .our_food img{
-	width: 500px;
+	width: 450px;
 	height: auto;
+	margin-top: 20px;
 }
 
 .block_four{
@@ -245,18 +269,23 @@ body, html{
   margin: 35px 20px 35px auto;
 }
 
+.block_five{
+	width: 800px;
+	margin: 0 auto;
+}
+
 .block_five_head{
 	font-size: 30px;
 	text-align: center;
 }
 
 .all_branches{
-	width: 100px;
+	width: 800px;
 	height: 100px;
+	justify-content: center;
 	text-align: center;
 	display: flex;
 	margin-top: 25px;
-	margin-left: 140px;
 	margin-bottom: 150px;
 	gap: 50px;
 }
