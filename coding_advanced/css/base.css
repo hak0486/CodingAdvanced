@@ -115,7 +115,8 @@ body, html{
 }
 
 .slider_wrapper {
-  width: 1080px;
+  max-width: 1080px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -446,19 +447,20 @@ body, html{
 }
 
 .slider_wrapper{
-	margin: 0 50px;
-	overflow: hidden;
+	max-width: 768px;
+    width: 90%;
+    margin: 0 auto;
+	padding-top: 20px;
 }
 
 .slider {
-    margin: 0;
+	width: 100%;
 	padding: 0;
-    width: calc(100% - 40px);
-	height: auto;
+	display: block;
 }
 .slider img {
 	width: 100%;
-    height: 450px;
+    height: 400px;
 	object-fit: cover;
 	display: block;
 }
@@ -509,10 +511,14 @@ body, html{
     transform: translate(0, 0) !important;
   }
 
+.block_one{
+	width: 450px;
+	margin: 40px auto;
+}
+
 .block_one_head{
 	font-size: 20px;
 	font-weight: bold;
-	margin: 20px 130px;
 }
 
 br.linebreak{
@@ -520,7 +526,6 @@ br.linebreak{
 }
 
 .signature_food{
-	margin: 0 130px;
 	flex-direction: column;
 }
 
@@ -530,18 +535,21 @@ br.linebreak{
 }
 
 .signature_food img{
-	width: 100%;
+	width: 450px;
 	height: auto;
+}
+
+.block_two{
+	width: 450px;
+	margin: 40px auto;
 }
 
 .block_two_head{
 	font-size: 20px;
 	font-weight: bold;
-	margin: 20px 130px;
 }
 
 .our_coffee{
-	margin: 0 130px;
 	flex-direction: column;
 }
 
@@ -555,14 +563,17 @@ br.linebreak{
 	height: auto;
 }
 
+.block_three{
+	width: 450px;
+	margin: 40px auto;
+}
+
 .block_three_head{
 	font-size: 20px;
 	font-weight: bold;
-	margin: 20px 130px;
 }
 
 .our_food{
-	margin: 0 130px;
 	flex-direction: column;
 }
 
